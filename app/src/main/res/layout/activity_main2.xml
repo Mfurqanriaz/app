@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/loginicon"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="8"
+        android:hint="Enter User Name"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+       android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/usericon"
+        android:background="@drawable/style_1"
+        android:padding="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/style_1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/userkey"
+        android:drawablePadding="30dp"
+        android:maxLength="6"
+        android:padding="10dp"
+
+        />
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal"
+
+          >
+
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="login"
+              android:textSize="15sp"
+              android:textColor="#daff"
+              android:layout_marginTop="30dp"
+              android:layout_marginLeft="40dp"
+              android:background="@drawable/button_style"
+              />
+
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="sign Up"
+              android:textColor="#daff"
+              android:layout_marginLeft="10sp"
+              android:textSize="15sp"
+              android:layout_marginTop="30dp"
+              android:elevation="22dp"
+              android:onClick="formpage"
+              android:background="@drawable/button_style"
+              />
+
+
+
+
+
+
+
+      </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
